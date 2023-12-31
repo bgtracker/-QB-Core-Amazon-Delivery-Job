@@ -1,5 +1,9 @@
 # Amazon Delivery Job
 
+Dependencies:
+
+qb-inventory and qb-target
+
 # Installation
 
 ### Copy the AmazonWarehouse and AmazonHubsUK maps to your resources folder
@@ -9,6 +13,10 @@ add to your server.cfg(optional if you are already loading pre-defined folders f
 ensure AmazonHubsUK
 ensure AmazonWarehouse
 ```
+
+#
+
+### Copy the item images from amz-delivery-item-images folder to qb-inventory\html\images
 
 #
 
@@ -60,3 +68,4 @@ Add to Config.TargetModels:
         },
         distance = 2.5,
     },
+```
