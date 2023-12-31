@@ -51,7 +51,7 @@ end)
 -- Funções
 
 function ExportDeliveryTarget()
-    local prob = math.random(1, 10)
+    local prob = math.random(1, 6)
 
     if prob == 1 then
         SetNewWaypoint(Config.DeliveryLoc1)
